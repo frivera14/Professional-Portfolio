@@ -10,18 +10,11 @@ import Resume from './components/Resume';
 function App() {
   const [currentPage, setCurrentPage] = useState(false)
   
-  const renderPage = () => {
-    switch (currentPage) {
-      default: <About/>
-      case 'About Me':
-        return <About/> 
-      case 'Projects':
-        return <Projects/>
-      case 'Contact Me': 
-        return <ContactMe/>
-      case 'Resume': 
-        return <Resume/>
-    }
+  const renderPage = {
+    "About Me": <About/>,
+    "Projects": <Projects/>,
+    "Contact Me": <ContactMe/>,
+    "Resume": <Resume/>
   };
 
   const changeIt = (page) => setCurrentPage(page)
@@ -32,7 +25,7 @@ function App() {
         currentPage={currentPage}
         changeIt={changeIt}
       ></Header>
-      {renderPage()}
+      {renderPage[currentPage] || <About/>}
       <Footer></Footer>
     </main>
   );
