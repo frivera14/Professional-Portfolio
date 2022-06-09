@@ -160,6 +160,11 @@
     color:rgb(255, 115, 0)
   }
 
+  .list-items:hover {
+    color:rgb(255, 115, 0)
+
+  }
+
   .other-title {
     color: black;
   }
