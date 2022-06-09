@@ -1,26 +1,20 @@
 import React, { useState } from 'react';
 
-function Navigation(props) {
-
-    const {
-        contactSelected,
-        setContactSelected
-    } = props;
-    
+function Navigation({ currentPage, changeIt}) {
     return(
         <nav>
         <ul>
           <li>
-            <a href="#About" onClick={() => setContactSelected(false)}>About Me</a>
+            <a href="#About" onClick={() => changeIt('About Me')}>About Me</a>
           </li>
-          <li className={contactSelected && 'navActive'}>
-            <a href="#Project" onClick={() => setContactSelected(true)}>Projects</a>
+          <li className={currentPage && 'navActive'}>
+            <a href="#Project" onClick={() => changeIt('Projects')}>Projects</a>
           </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
+          <li className={currentPage && 'navActive'}>
+            <a href="#Contact" onClick={() => changeIt('Contact Me')}>Contact Me</a>
           </li>
-          <li>
-            <a href="#Resume">Resume</a>
+          <li className={currentPage && 'naveAcive'}>
+            <a href="#Resume" onClick={() => changeIt('Resume')}>Resume</a>
           </li>
         </ul>
       </nav>

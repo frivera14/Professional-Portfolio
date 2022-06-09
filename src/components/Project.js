@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Projects() {
 
-    const [projects] = useState(
+    const projects = 
         [
             {name: 'Track Your Cash', description: 'This application was developed for users to be able to have a budget tracking application that can work offline if there is connectivity problems. Once users are back online, data that was entered is uploaded to the server. The application is also downloadable to mobile phones and desktops.', url: '', techs: ['MongoDB', 'Express', 'PWA', 'Javascript']},
             {name: 'Coding Hub', description: 'This project was built to create a blog for tech fans and workers to discuss and share ideas. Built under the MVC Paradigm using Handlebars, users can log into their own accounts, post and comment on others posts about their favorite coding topics.', url: '', techs: ['Handlebars.js', 'Express', 'SQL', 'Javascript', 'Bootstrap']},
@@ -12,7 +12,7 @@ function Projects() {
             {name: 'Random Password Generator', description: 'Random Password Generator where prompts ask for a series of questions to include lower case, upper case, numbers and special characters.', url: '', techs: ['HTML', 'CSS', 'Javascript']}
         ]
 
-    )
+
 
     return(
         
@@ -25,7 +25,7 @@ function Projects() {
                             <a className="card=title text-danger" target={"_blank"}>
                                 <h5>{project.name}</h5>
                             </a>
-                            <p className="text-muted">{project.description}</p>
+                            {/* <p className="text-muted">{project.description}</p> */}
                         </div>
                     </div>
                 </div>
