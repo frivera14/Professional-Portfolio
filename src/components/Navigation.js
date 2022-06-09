@@ -5,7 +5,7 @@ function Navigation({ currentPage, changeIt}) {
         <nav>
         <ul>
           <li>
-            <a href="#About" onClick={() => changeIt('About Me')}>About Me</a>
+            <a href='#About' onClick={() => changeIt('About Me')}>About Me</a>
           </li>
           <li className={currentPage && 'navActive'}>
             <a href="#Project" onClick={() => changeIt('Projects')}>Projects</a>
