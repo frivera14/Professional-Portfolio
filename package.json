@@ -1,5 +1,4 @@
 {
-  "homepage": "http://frivera14.github.io/professional-portfolio",
   "name": "professional-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "http://frivera14.github.io/professional-portfolio"
 }
