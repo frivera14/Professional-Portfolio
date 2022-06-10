@@ -17,7 +17,7 @@
 ## Installation
 
 No steps to install, follow the link below.
-https://frivera14.github.io/Professional-Portfolio/
+https://frivera14.github.io/professional-portfolio/
 
 ## Usage
   
