@@ -29,13 +29,13 @@ function Projects() {
         <>
         <div className="container mt-3 mb-3 w-50">
             <div className="card border border-warining">
-                <img src={require(`../assets/projects/${projects[display].picPath}`)}/>
+                <img alt={''} src={require(`../assets/projects/${projects[display].picPath}`)}/>
                 <div className="card-body">
                     <p className="text-muted">{projects[display].techs}</p>
-                    <a className="card-title text-danger" href={projects[display].url} target={"_blank"}>
+                    <a className="card-title text-danger" href={projects[display].url} rel="noreferrer" target={"_blank"}>
                         <h5>{projects[display].name}</h5>
                     </a>
-                    <a className="text-dark" target={"_blank"} href={projects[display].github}>
+                    <a className="text-dark" rel="noreferrer" target={"_blank"} href={projects[display].github}>
 
                     <svg  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                         className="bi bi-github" viewBox="0 0 16 16">
