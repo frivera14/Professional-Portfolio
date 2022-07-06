@@ -39,5 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://frivera14.github.io/professional-portfolio/"
 }
