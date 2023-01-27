@@ -13,7 +13,7 @@ function About() {
                 <div className="me">
                     <img src={require(`../assets/aboutmepic.jpg`)} alt="pic of Francisco" />
                     <p class="text-muted p-2">
-                        I am a Fullstack Web Developer, based in Arizona and current student at the University of Arizona: Web
+                        I am a Fullstack Web Developer, based in Arizona and graduate from the University of Arizona: Web
                         Development Bootcamp. Through self-instruction and guided training I have gained significant skill and I strive
                         to help improve, and create more
                         efficient, user-friendly, and interactive web applications.
