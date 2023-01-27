@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/professional-portfolio/static/css/main.d0437fba.css",
-    "main.js": "/professional-portfolio/static/js/main.0ce022e2.js",
+    "main.js": "/professional-portfolio/static/js/main.6c5b4ce2.js",
     "static/js/787.10c1ab8b.chunk.js": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js",
     "static/media/aboutmepic.jpg": "/professional-portfolio/static/media/aboutmepic.a7820717d6976149c902.jpg",
     "static/media/3.png": "/professional-portfolio/static/media/3.2867bf524a51e390885b.png",
     "static/media/2.png": "/professional-portfolio/static/media/2.77176193f2c805839aa2.png",
     "static/media/0.png": "/professional-portfolio/static/media/0.37f16d86d1c564817202.png",
-    "static/media/Francisco_Rivera22.docx": "/professional-portfolio/static/media/Francisco_Rivera22.c1456ed2089322908aca.docx",
+    "static/media/FR-Resume23.pdf": "/professional-portfolio/static/media/FR-Resume23.2089d9ee96d29734e1e6.pdf",
     "static/media/4.png": "/professional-portfolio/static/media/4.03a549230f41b19856b7.png",
     "static/media/1.png": "/professional-portfolio/static/media/1.6dcb7626148c95e956cb.png",
     "static/media/mongopng.png": "/professional-portfolio/static/media/mongopng.c9f0a5e798fe10267adb.png",
@@ -17,11 +17,11 @@
     "static/media/Bootstrap_logo.svg.png": "/professional-portfolio/static/media/Bootstrap_logo.svg.c5dedb5348b058d36661.png",
     "index.html": "/professional-portfolio/index.html",
     "main.d0437fba.css.map": "/professional-portfolio/static/css/main.d0437fba.css.map",
-    "main.0ce022e2.js.map": "/professional-portfolio/static/js/main.0ce022e2.js.map",
+    "main.6c5b4ce2.js.map": "/professional-portfolio/static/js/main.6c5b4ce2.js.map",
     "787.10c1ab8b.chunk.js.map": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0437fba.css",
-    "static/js/main.0ce022e2.js"
+    "static/js/main.6c5b4ce2.js"
   ]
 }
